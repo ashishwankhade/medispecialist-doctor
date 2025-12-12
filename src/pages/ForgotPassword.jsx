@@ -8,7 +8,7 @@ import {
 } from "@/store/slices/forgotResetPasswordSlice";
 import { toast } from "react-toastify";
 import SpecialLoadingButton from "./sub-components/SpecialLoadingButton";
-import WebLogo from "../../public/RanaLogoMain.jpg";
+import WebLogo from "../assets/RanaLogoMain.jpg";
 import "./ForgotPassword.css";
 const ForgotPassword = () => {
   const [doctorEmailId, setDoctorEmailId] = useState("");
